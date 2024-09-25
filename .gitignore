@@ -1,3 +1,7 @@
+# Add these lines
+frontend/node_modules/
+frontend/build/
+
 # Ignore the .DS_Store file on macOS
 .DS_Store   
 
