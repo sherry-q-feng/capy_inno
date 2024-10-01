@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Typography, TextField, Button, List, ListItem, ListItemText, ListItemSecondaryAction, IconButton } from '@material-ui/core';
-import { Delete, Edit } from '@material-ui/icons';
+import { Container, Typography, TextField, Button, List, ListItem, ListItemText, ListItemSecondaryAction, IconButton } from '@mui/material';
+import { Delete, Edit } from '@mui/icons-material';
 import axios from 'axios';
 
 const API_URL = 'http://localhost:5000/api';
